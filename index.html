@@ -90,12 +90,19 @@
                                 min="0" max="12">
                             <div class="form-group">
                                 <label for="day" class="labels">Day of the month</label>
-                                <input type="number" class="form-control" placeholder="Enter the day" id="day"
-                                    required min="0" max="30">
-                                    <form class="radio-btn">
-                                        <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required> Male 
-                                        <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required> Female
-                                    </form>
+                                <input type="number" class="form-control" placeholder="Enter the day" id="day" required
+                                    min="0" max="30">
+                                <form class="radio-btn">
+                                    <input type="radio" class="genders labels" value="male" id="rad1" name="rads"
+                                        required> Male
+                                    <input type="radio" class="genders labels" value="female" id="rad1" name="rads"
+                                        required> Female
+                                    <br>
+
+                                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+                                            onclick="checkDayOfWeek();" width="90px">submit</button></a>
+                                            <h1 id="result"></h1>
+                                </form>
                             </div>
                         </div>
                     </div>
