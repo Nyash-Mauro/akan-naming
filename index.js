@@ -57,3 +57,27 @@ function checkGender(){
         console.log("pass")
     }
 }
+switch (gender) {
+    case gender = "male":
+        switch(day){
+            case(0||-0):
+            document.getElementById("result").innerHTML ="The day was on Sunday"+" "+"Your Akan name is" + maleNames[0];
+            case(1||-1):
+            document.getElementById("result").innerHTML ="The day was on Monday"+" "+"Your Akan name is" + maleNames[1];
+            case(2||-2):
+            document.getElementById("result").innerHTML ="The day was on Tuesday"+" "+"Your Akan name is" + maleNames[2];
+            case(3||-3):
+            document.getElementById("result").innerHTML ="The day was on Wednesday"+" "+"Your Akan name is" + maleNames[3];
+            case(4||-4):
+            document.getElementById("result").innerHTML ="The day was on Thursday"+" "+"Your Akan name is" + maleNames[4];
+            case(5||-5):
+            document.getElementById("result").innerHTML ="The day was on Friday"+" "+"Your Akan name is" + maleNames[5];
+            case(6||-6):
+            document.getElementById("result").innerHTML ="The day was on Saturday"+" "+"Your Akan name is" + maleNames[6];
+        }
+        
+        break;
+
+    default:
+        break;
+}
