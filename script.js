@@ -72,49 +72,49 @@ function checkGender() {
       switch (day) {
         case 0 || -0:
           document.getElementById("result").innerHTML =
-            "The day was on a sunday." +
+            "The day was on a Sunday." +
             "  " +
             "Your akan name is " +
             maleNames[0];
           break;
         case 1 || -1:
           document.getElementById("result").innerHTML =
-            "The day was on a monday." +
+            "The day was on a Monday." +
             " " +
             "Your akan name is " +
             maleNames[1];
           break;
         case 2 || -2:
           document.getElementById("result").innerHTML =
-            "The day was on a tuesday." +
+            "The day was on a Tuesday." +
             " " +
             "Your akan name is " +
             maleNames[2];
           break;
         case 3 || -3:
           document.getElementById("result").innerHTML =
-            "The day was on a wednesday." +
+            "The day was on a Wednesday." +
             " " +
             "Your akan name is " +
             maleNames[3];
           break;
         case 4 || -4:
           document.getElementById("result").innerHTML =
-            "The day was on a thursday." +
+            "The day was on a Thursday." +
             " " +
             "Your akan name is " +
             maleNames[4];
           break;
         case 5 || -5:
           document.getElementById("result").innerHTML =
-            "The day was on a friday." +
+            "The day was on a Friday." +
             " " +
             "Your akan name is " +
             maleNames[5];
           break;
         case 6 || -6:
           document.getElementById("result").innerHTML =
-            "The day was on a saturday." +
+            "The day was on a Saturday." +
             " " +
             "Your akan name is " +
             maleNames[6];
@@ -136,31 +136,31 @@ function checkGender() {
       switch (day) {
         case 0 || -0:
           document.getElementById("result").innerHTML =
-            "The day was on a sunday." + "  " + "Your akan name is  Akosua";
+            "The day was on a Sunday." + "  " + "Your akan name is  Akosua";
           break;
         case 1 || -1:
           document.getElementById("result").innerHTML =
-            "The day was on a monday." + " " + "Your akan name is Adwoa ";
+            "The day was on a Monday." + " " + "Your akan name is Adwoa ";
           break;
         case 2 || -2:
           document.getElementById("result").innerHTML =
-            "The day was on a tuesday." + " " + "Your akan name is Abenaa";
+            "The day was on a Tuesday." + " " + "Your akan name is Abenaa";
           break;
         case 3 || -3:
           document.getElementById("result").innerHTML =
-            "The day was on a wednesday." + " " + "Your akan name is Akua";
+            "The day was on a Wednesday." + " " + "Your akan name is Akua";
           break;
         case 4 || -4:
           document.getElementById("result").innerHTML =
-            "The day was on a thursday." + " " + "Your akan name is Yaa";
+            "The day was on a Thursday." + " " + "Your akan name is Yaa";
           break;
         case 5 || -5:
           document.getElementById("result").innerHTML =
-            "The day was on a friday." + " " + "Your akan name is Afua";
+            "The day was on a Friday." + " " + "Your akan name is Afua";
           break;
         case 6 || -6:
           document.getElementById("result").innerHTML =
-            "The day was on a saturday." + " " + "Your akan name is Ama";
+            "The day was on a Saturday." + " " + "Your akan name is Ama";
           break;
       }
       break;

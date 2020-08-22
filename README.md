@@ -14,7 +14,7 @@ This is a site that names and gives someone their Akan names
 ## Technologies Used
 HTML, CSS and Js
 ## Support and contact details
-{I.}f any issue arise contact me at mauricee423@gmail.com
+If any issue arise contact me at mauricee423@gmail.com
 ### License
 
 Copyright (c) {2020} **icons**
