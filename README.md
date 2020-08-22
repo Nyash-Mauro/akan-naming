@@ -4,8 +4,8 @@
 ## Description
 This is a site that names and gives someone their Akan names
 ## Setup/Installation Requirements
-* Know your names
-* to list setup instructions
+* Know your Akan name
+* list setup instructions
 * Fill the forms
 * easy-to-understand
 * easy format
