@@ -109,3 +109,30 @@ let daysOfWeek = [
   ];
 
 let femaleNmes =["Akosua","Adwoa","Abena","Akúá","Yaa","Afua","Ám̀ma"]
+
+switch (gender) {
+    case (gender = "female"):
+      switch (day) {
+        case 0 || -0:
+          document.getElementById("result").innerHTML =
+            "The day was on Sunday" + " " + "Your Akan name is" + femaleNames[0];
+        case 1 || -1:
+          document.getElementById("result").innerHTML =
+            "The day was on Monday" + " " + "Your Akan name is" + femaleNames[1];
+        case 2 || -2:
+          document.getElementById("result").innerHTML =
+            "The day was on Tuesday" + " " + "Your Akan name is" + femaleNames[2];
+        case 3 || -3:
+          document.getElementById("result").innerHTML =
+            "The day was on Wednesday" + " " + "Your Akan name is" + femaleNames[3];
+        case 4 || -4:
+          document.getElementById("result").innerHTML =
+            "The day was on Thursday" + " " + "Your Akan name is" + femaleNames[4];
+        case 5 || -5:
+          document.getElementById("result").innerHTML =
+            "The day was on Friday" + " " + "Your Akan name is" + femaleNames[5];
+        case 6 || -6:
+          document.getElementById("result").innerHTML =
+            "The day was on Saturday" + " " + "Your Akan name is" + femaleNames[6];
+      }
+    }
