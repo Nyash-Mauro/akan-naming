@@ -41,3 +41,6 @@ function chechDayOfWeek(){
     checkGender();
     console.log("the function runs")
 }
+
+let daysOfWeek = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+let maleNames =["Kwasi","Kwado","Kwabena","Kwaku","Yaw","Koffi","Kwame"];
