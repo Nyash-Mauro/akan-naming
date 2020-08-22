@@ -28,8 +28,16 @@ function calculateDay(){
     console.log(dayOfWeek);
     return (Math.floor(dayOfWeek));
     if (dayOfWeek < 0){
-        dayOfWeek = dayOfWeek * -1;    }
+        dayOfWeek = dayOfWeek * -1   
+    }
+    else if (dayOfWeek > 0){
+        return dayOfWeek ;
+    }
 }
-else if (dayOfWeek > 0){
-    return dayOfWeek;
+
+
+function chechDayOfWeek(){
+    day = calculateDay();
+    checkGender();
+    console.log("the function runs")
 }
