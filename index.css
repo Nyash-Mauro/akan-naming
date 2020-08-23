@@ -1,3 +1,7 @@
 *{
+/*     background-color:rgb(225, 225, 245); */ 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.jumbotron{
+    background-color:rgb(179, 179, 245) !important;
 }
